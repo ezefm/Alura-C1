@@ -1,0 +1,40 @@
+h1 {
+  color: white;
+  text-align: center;
+  position: relative;
+  font-family:monospace;
+  top: 2em;
+}
+h3 {
+  color: white;
+  position: relative;
+  text-align: center;
+  font-family:sans-serif;
+  top: 13em
+}
+body {
+  background-image: url("img1.jpg");
+}
+.Encriptador {
+  text-align: center;
+  position: relative;
+  top: 7em;
+  margin-bottom: 1em;
+}
+.botones {
+  border-radius: 1em;
+  background-color: #F94892;
+  width: 10em;
+  height: 2em;
+}
+#Copiar {
+  border-radius: 1em;
+  background-color: #F94892;
+  width: 10em;
+  height: 2em;
+}
+.input-output {
+  border: 5px;
+  border-style: dashed double none;
+  border-color: #F94892;
+}

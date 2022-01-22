@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Alura-C1</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="aluraChallenge1.ico">
+  </head>
+  <body>
+    <h1>Alura LATAM NEXT ONE - C1</h1>
+
+    <div class="Encriptador">
+      <textarea id="input-message" name="info-message" rows="10" cols="68"
+      placeholder="Solo se permiten letras minúsculas y espacios!"
+        onkeypress="return soloLetrasMinuscuelas(event);" class="input-output"
+          required></textarea><br>
+      <button id="Encriptar" class="botones">Encriptar</button>
+      <button id="Desencriptar" class="botones">Desencriptar</button>
+    </div>
+
+    <div class="Encriptador">
+      <textarea id="output-message" name="info-message" rows="10" cols="68"
+         class="input-output"></textarea><br>
+      <button id="Copiar">Copiar</button>
+    </div>
+
+
+  <!-- Archivos JS -->
+  <script src="js/encrypt.js"></script>
+  <script src="js/decrypt.js"></script>
+  <script src="js/copyButton.js"></script>
+  </body>
+  <footer>
+    <h3>Montiel Fernado Ezequiel</h3>
+  </footer>
+</html>
